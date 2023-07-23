@@ -1,1 +1,3 @@
-FROM Ruby:2.6.6
+FROM ruby:3.0
+
+RUN gem install rspec
