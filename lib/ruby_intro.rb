@@ -27,6 +27,7 @@ end
 # Part 2
 
 def hello(name)
+  # return hello with name
   return "Hello, #{name}"
 end
 
@@ -64,7 +65,6 @@ class BookInStock
     @price = price
   end
 
-  # method price_as_string,
   # ex, 33.8 => $33.80
   def price_as_string
     "$#{'%.2f' % @price}"
